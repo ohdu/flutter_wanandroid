@@ -1,0 +1,39 @@
+name: wan_android
+description: A new Flutter project.
+ 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  # cookie 管理
+  dio_cookie_manager: ^1.0.0
+  cookie_jar: ^1.0.0
+  # 网络请求
+  dio: ^3.0.9
+  # 本地路径获取
+  path_provider: ^1.6.5
+  # toast
+  toast: ^0.1.5
+  shared_preferences: ^0.5.6+3
+  # banner
+  flutter_swiper: ^1.1.6
+  # 下拉刷新 上拉加载
+  pull_to_refresh: ^1.5.7
+  flutter_webview_plugin: ^0.3.11
+  provider: ^4.0.5+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter 
+
+ 
+flutter:
+  uses-material-design: true
+ 
+  assets:
+    - images/
